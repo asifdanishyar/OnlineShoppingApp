@@ -38,6 +38,13 @@ body {
     color: white;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+.text-white{
+    color: white;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
