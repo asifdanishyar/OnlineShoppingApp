@@ -17,10 +17,9 @@
                 Starters
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Pappadams</a>
-                <a href="" class="dropdown-item">Samosa</a>
-                <a href="" class="dropdown-item">Onion Bhaji</a>
-                <a href="" class="dropdown-item">All Starters</a>
+                <a href="{% url 'products' %}?category=pappadams" class="dropdown-item">Pappadams</a>
+                <a href="{% url 'products' %}?category=samosa" class="dropdown-item">Samosa</a>
+                <a href="{% url 'products' %}?category=pappadams,samosa" class="dropdown-item">All Starters</a>
             </div>
         </li>
 
@@ -29,9 +28,10 @@
                 Main Menu
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Butter Chicken</a>
-                <a href="" class="dropdown-item">Chicken Tikka Masala</a>
-                <a href="" class="dropdown-item">All Main Menu</a>
+                <a href="{% url 'products' %}?category=butterchicken" class="dropdown-item">Butter Chicken</a>
+                <a href="{% url 'products' %}?category=roghanjosh" class="dropdown-item">Roghan Josh</a>
+                <a href="{% url 'products' %}?category=butterchicken,roghanjosh" class="dropdown-item">All Main Menu</a>
+
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Beverages
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Fanta</a>
-                <a href="" class="dropdown-item">Wine</a>
-                <a href="" class="dropdown-item">whiskey</a>
-                <a href="" class="dropdown-item">All Beverages</a>
+                <a href="{% url 'products' %}?category=fanta" class="dropdown-item">Fanta</a>
+                <a href="{% url 'products' %}?category=wine" class="dropdown-item">Wine</a>
+                <a href="{% url 'products' %}?category=whiskey" class="dropdown-item">whiskey</a>
+                <a href="{% url 'products' %}?category=fanta,wine,whiskey" class="dropdown-item">All Beverages</a>
             </div>
         </li>
     </ul>
