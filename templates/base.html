@@ -86,9 +86,9 @@
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %}
-                                        ${{ grand_total|floatformat:2 }}
+                                        {{ grand_total|floatformat:2 }} kr
                                     {% else %}
-                                        $0.00
+                                        0.00 kr
                                     {% endif %}
                                 </p>
                             </div>
@@ -97,7 +97,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row bg-white">
+         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -108,7 +108,7 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_shipping_threshold }}!</h4>                
+                <h4 class="logo-font my-1">Free delivery on orders over {{ free_delivery_threshold }} kr!</h4>                
             </div>            
         </div>
     </header>
