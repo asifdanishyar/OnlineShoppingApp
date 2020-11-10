@@ -72,6 +72,14 @@ body {
 .menu{
     margin-top: 20px;
 }
+/* the arrow key to the top*/
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    left: auto;
+    display: none;
+}
 
 /* -------------------------------- Media Queries */
 
