@@ -3,24 +3,104 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-      "name": "Starters/desserts",
-      "friendly_name": "Starters/desserts"
+      "name": "butterchicken",
+      "friendly_name": "Butter Chicken"
     }
   },
   {
     "pk": 2,
     "model": "products.category",
     "fields": {
-      "name": "smoothies",
-      "friendly_name": "Smoothies"
+      "name": "kebab",
+      "friendly_name": "Kebab"
     }
   },
   {
     "pk": 3,
     "model": "products.category",
     "fields": {
-      "name": "mainmenu",
-      "friendly_name": "Main Menu"
+      "name": "mantu",
+      "friendly_name": "Mantu"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "qabulipalow",
+      "friendly_name": "Qabuli Palow"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "samosa",
+      "friendly_name": "Samosa"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "pappadams",
+      "friendly_name": "Pappadams"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "onionbhaji",
+      "friendly_name": "Onion Bhaji"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+      "name": "carrrotcake",
+      "friendly_name": "Carrot Cake"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+      "name": "chocolatecake",
+      "friendly_name": "Chocolate Cake"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+      "name": "vanillacake",
+      "friendly_name": "Vanilla Cake"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+      "name": "mangolassi",
+      "friendly_name": "Mango Lassi"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+      "name": "spinachjuice",
+      "friendly_name": "Spinach Juice"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.category",
+    "fields": {
+      "name": "strawberrylassi",
+      "friendly_name": "Strawberry Lassi"
     }
   }
 ]
