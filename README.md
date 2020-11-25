@@ -131,7 +131,7 @@ The color scheme of the website is kept fairly simple to make it attractive and 
 Wireframes for this project were created by using [Balsamiq](https://balsamiq.com/). It includes wireframes for dektop,
 tablet and mobile screen size.
  
-- [Wireframes in PDF](static...............)
+- [Wireframes in PDF](static/others/Final-Project-Prototype-Balsamiq.pdf)
 
 ## Database & Data Models
 
@@ -366,7 +366,16 @@ The code has been validated by using;
 1. **Modal was not working properly** - I was working on profile and creating user, it was working perfect. then i jump to the products and wanted to
 add some more functionalities to the product. Then accidentally i made a typo mistake. in the **settings.py** in stead of "LOGIN_REDIRECT_URL = '/'"
 i typed "LOGIN_RDIRECT_URL = '/'". i spent almost 3 days on it. I with two tutor support from Code Institute spent 2 days and finally one of the 
-tutor support could figure it out and we solved the issue. Then i learned that no matter how good you are in coding you will spend times on nothing.
-such types of error is so difficult to find out.
- 
+tutor support could figure it out and we solved the issue. Then i learned that no matter how good you are in coding you will spend many hours and days
+on very simple things. such types of errors are so difficult to find out.
 
+## Deployment
+
+The deployed project and project's **github repository** can be viewed on following links. To test card payments use 
+Stripe test payments card number *4242 4242 4242 4242*, expiry *04/24*, CVC *242 42424* and click on complete order.
+
+- **[Hommate Live Page](....)**
+
+- **[Homemate Github Repository](https://github.com/asifdanishyar/OnlineShoppingApp)**
+
+git add
