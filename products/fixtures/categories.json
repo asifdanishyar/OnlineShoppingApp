@@ -3,64 +3,24 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-      "name": "starters",
-      "friendly_name": "Starters"
+      "name": "Starters/desserts",
+      "friendly_name": "Starters/desserts"
     }
   },
   {
     "pk": 2,
     "model": "products.category",
     "fields": {
-      "name": "lambmains",
-      "friendly_name": "Lamb Mains"
+      "name": "smoothies",
+      "friendly_name": "Smoothies"
     }
   },
   {
     "pk": 3,
     "model": "products.category",
     "fields": {
-      "name": "chickenmains",
-      "friendly_name": "Chicken Mains"
-    }
-  },
-  {
-    "pk": 4,
-    "model": "products.category",
-    "fields": {
-      "name": "vegetarianmains",
-      "friendly_name": "Vegetarian Mains"
-    }
-  },
-  {
-    "pk": 5,
-    "model": "products.category",
-    "fields": {
-      "name": "seafoodmains",
-      "friendly_name": "Seafood Mains"
-    }
-  },
-  {
-    "pk": 6,
-    "model": "products.category",
-    "fields": {
-      "name": "rice and nan",
-      "friendly_name": "Rice & Nan"
-    }
-  },
-  {
-    "pk": 7,
-    "model": "products.category",
-    "fields": {
-      "name": "sides",
-      "friendly_name": "Sides"
-    }
-  },
-  {
-    "pk": 8,
-    "model": "products.category",
-    "fields": {
-      "name": "beverages",
-      "friendly_name": "Beverages"
+      "name": "mainmenu",
+      "friendly_name": "Main Menu"
     }
   }
 ]

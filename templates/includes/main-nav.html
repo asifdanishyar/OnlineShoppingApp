@@ -15,12 +15,16 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Starters
+                Starters/Desserts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=pappadams" class="dropdown-item">Pappadams</a>
-                <a href="{% url 'products' %}?category=samosa" class="dropdown-item">Samosa</a>
-                <a href="{% url 'products' %}?category=pappadams,samosa" class="dropdown-item">All Starters</a>
+                <a href="{% url 'products' %}?category=Starters/desserts" class="dropdown-item">Pappadams</a>
+                <a href="{% url 'products' %}?category=Starters/desserts" class="dropdown-item">Samosa</a>
+                <a href="{% url 'products' %}?category=Starters/desserts" class="dropdown-item">Carrot Cake</a>
+                <a href="{% url 'products' %}?category=Starters/desserts" class="dropdown-item">Chocolate Cake</a>
+                <a href="{% url 'products' %}?category=Starters/desserts" class="dropdown-item">Vanilla Cake</a>
+                <a href="{% url 'products' %}?category=Starters/desserts" class="dropdown-item">Onion Bhaji</a>
+                <a href="{% url 'products' %}?Starters/desserts" class="dropdown-item">All Starters & Desserts</a>
             </div>
         </li>
 
@@ -29,22 +33,24 @@
                 Main Menu
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=butterchicken" class="dropdown-item">Butter Chicken</a>
-                <a href="{% url 'products' %}?category=roghanjosh" class="dropdown-item">Roghan Josh</a>
-                <a href="{% url 'products' %}?category=butterchicken,roghanjosh" class="dropdown-item">All Main Menu</a>
+                <a href="{% url 'products' %}?category=mainmenu" class="dropdown-item">Kebab</a>
+                <a href="{% url 'products' %}?category=mainmenu" class="dropdown-item">Mantu</a>
+                <a href="{% url 'products' %}?category=mainmenu" class="dropdown-item">Qabuli Palow</a>
+                <a href="{% url 'products' %}?category=mainmenu" class="dropdown-item">Butter Chicken</a>
+                <a href="{% url 'products' %}?mainmenu" class="dropdown-item">All Main Menu</a>
 
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Beverages
+                Smoothies
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=fanta" class="dropdown-item">Fanta</a>
-                <a href="{% url 'products' %}?category=wine" class="dropdown-item">Wine</a>
-                <a href="{% url 'products' %}?category=whiskey" class="dropdown-item">whiskey</a>
-                <a href="{% url 'products' %}?category=fanta,wine,whiskey" class="dropdown-item">All Beverages</a>
+                <a href="{% url 'products' %}?category=smoothies" class="dropdown-item">Mango Lassi</a>
+                <a href="{% url 'products' %}?category=smoothies" class="dropdown-item">Spinach Juice</a>
+                <a href="{% url 'products' %}?category=smoothies" class="dropdown-item">Strwaberry Lassi</a>
+                <a href="{% url 'products' %}?category=smoothies" class="dropdown-item">All Smoothies</a>
             </div>
         </li>
     </ul>
