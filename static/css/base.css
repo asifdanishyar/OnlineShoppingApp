@@ -267,6 +267,17 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+/* footer */
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.footertext{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
