@@ -27,7 +27,7 @@ SECRET_KEY = 'pz=233+^9n(v3dplfm#q=_=fymdf)ja^%d#)f#4cd%rx6*2kjg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['home-mate', 'localhost']
+ALLOWED_HOSTS = ['home-mate.herokuapp.com', 'localhost']
 
 
 # Application definition
