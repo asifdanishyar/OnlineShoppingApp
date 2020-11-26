@@ -1,1 +1,1 @@
-web: gunicorn happy_shopping.wsgi:application
+web: gunicorn OnlineShoppingApp.wsgi:application
