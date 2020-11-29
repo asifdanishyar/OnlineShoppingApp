@@ -269,12 +269,8 @@ input[name='q']::placeholder {
 }
 /* footer */
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
+   left: 10%;
+   bottom: 2px;
    text-align: center;
 }
 
