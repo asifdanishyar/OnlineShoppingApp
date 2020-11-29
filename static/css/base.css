@@ -269,9 +269,10 @@ input[name='q']::placeholder {
 }
 /* footer */
 .footer {
-   left: 10%;
-   bottom: 2px;
    text-align: center;
+   align-items: center;
+   padding-left: 15%;
+   padding-right: 15%;
 }
 
 /* fixed top navbar only on medium and up */
