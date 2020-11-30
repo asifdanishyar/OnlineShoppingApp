@@ -274,6 +274,8 @@ input[name='q']::placeholder {
 /* footer */
 .footer {
    text-align: center;
+   padding-left: 20%;
+   padding-right: 20%;
 }
 
 /* fixed top navbar only on medium and up */
