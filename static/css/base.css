@@ -271,15 +271,6 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
-/* footer */
-.footer{
-width: 100%;
-height: auto;
-text-align: center;
-background-color: black;
-position: relative;
-bottom: 0px;
-}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
