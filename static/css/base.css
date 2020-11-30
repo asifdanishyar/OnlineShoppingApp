@@ -272,10 +272,13 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 /* footer */
-.footer {
-   text-align: center;
-   padding-left: 20%;
-   padding-right: 20%;
+.footer{
+width: 100%;
+height: auto;
+float: left;
+background-color: black;
+position: relative;
+bottom: 0px;
 }
 
 /* fixed top navbar only on medium and up */
