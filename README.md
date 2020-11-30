@@ -215,6 +215,9 @@ Google developers tool has been used from the  beginning to see the the result a
 like on different screen sizes. Further I used **print statement** to debug the issues.
 I created my own account and tested all the functions to make sure they work properly. In addition, I aslo asked my family and
 friends to test the project and give their feedback.
+1. **User doesn't get any confirmation email** - User can't receive any email as confirmation to their order. I and 5 other totur supporters
+have looked at it and couldn't find out where the issue is coming from becuause it doesn't show any error and of course such types of 
+troubleshooting takes time. this needs to be solved in future. 
 
 ### User Stories
 
